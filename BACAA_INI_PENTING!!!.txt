@@ -1,0 +1,26 @@
+
+
+Halow pembayaran spp online ini di buat oleh Muhammad Radya Iftikhar kelas XI RPL 2 Absen 27
+# 
+# 
+                                 --- INFO SUPAYA GK BINGUNG BUAT LOGIN ---
+
+        NAMA DATABASENYA:   latihan_ukl
+
+        PETUGAS USERNAME:   radya    
+        PETUGAS PASSWORD:   123
+
+        MURID NISN: 1077
+        MURID PASSWORD: 123
+
+
+                                                ---ERROR---
+        Di bagian history pas mau bayar tunggakan itu selama kalian belum logout itu bisa karena SESSION nya 
+        masih nyala, TAPI pas udah logout trus login lagi itu kalo klean langsung bayar itu bakal langsung ERROR
+        seperti ini:
+
+       ##---> Warning: Undefined array key "nisn" in C:\xampp\htdocs\PembayaranSPP-github\administrator\form_bayar_tunggakan.php on line 362
+
+        karena SESSION nya belum di start jadi kalian harus tambah pembayaran supaya SESSION nya nyala lagi
+
+                                           ---SEMOGA PAHAM YH---
